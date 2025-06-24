@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dominate Construction</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px;
+    }
+    header h1 {
+      margin: 0.5rem 0 0;
+      font-size: 2rem;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 0.25rem;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .services ul {
+      list-style-type: square;
+      padding-left: 1.2rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 1rem;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.25rem;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      margin-top: 1rem;
+      padding: 0.75rem 2rem;
+      background: #222;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Dominate Construction Logo" />
+  <h1>Dominate Construction</h1>
+  <p>Big Job or Small, We Do It All</p>
+</header>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    At Dominate Construction, we bring skill, integrity, and professionalism to every project.
+    Whether you're remodeling your kitchen or building a commercial space, we handle it all —
+    big or small. Based in Brampton, Ontario, we proudly serve homeowners and businesses within a 60 km radius.
+  </p>
+</section>
+
+<section class="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Residential Construction</li>
+    <li>Commercial Construction</li>
+    <li>Legal Basement Conversions</li>
+    <li>Kitchen Remodeling</li>
+    <li>Bathroom Renovations</li>
+  </ul>
+</section>
+
+<section class="gallery">
+  <h2>Project Gallery</h2>
+  <!-- Replace these src paths with your real project images -->
+  <img src="project1.jpg" alt="Project 1">
+  <img src="project2.jpg" alt="Project 2">
+  <img src="project3.jpg" alt="Project 3">
+</section>
+
+<section class="service-area">
+  <h2>Service Area</h2>
+  <p>We serve clients within a 60 km radius of Brampton, Ontario. If you're nearby — we're ready to build!</p>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>Have a project in mind? Let's talk!</p>
+  <p><strong>Email:</strong> <a href="mailto:Dominateconstruction@hotmail.com">Dominateconstruction@hotmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+16477717808">647-771-7808</a></p>
+  <p><strong>Instagram:</strong> <a href="https://www.instagram.com/dominateconstruction" target="_blank">@dominateconstruction</a></p>
+
+  <form class="contact-form" action="mailto:Dominateconstruction@hotmail.com" method="post" enctype="text/plain">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="Name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="Email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Dominate Construction. Built with pride in Brampton, ON.
+</footer>
+
+</body>
+</html>
